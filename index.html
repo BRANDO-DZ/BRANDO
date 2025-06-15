@@ -53,20 +53,11 @@
                 <a href="#services" class="nav-link">الخدمات</a>
             </li>
             <li class="nav-item">
-                <a href="#portfolio" class="nav-link">الأعمال</a>
-            </li>
-            <li class="nav-item">
-                <a href="#testimonials" class="nav-link">آراء العملاء</a>
-            </li>
-            <li class="nav-item">
                 <a href="#contact" class="nav-link">تواصل معنا</a>
             </li>
         </ul>
 
         <div class="nav-actions">
-            <button class="theme-toggle" id="themeToggle" aria-label="تبديل الوضع">
-                <span class="theme-icon">🌙</span>
-            </button>
             <a href="#contact" class="cta-btn">ابدأ مشروعك</a>
         </div>
 
@@ -102,28 +93,10 @@
                 </p>
                 
                 <div class="hero-actions">
-                    <a href="#portfolio" class="btn btn-primary">
-                        <span>استكشف أعمالنا</span>
+                    <a href="#about" class="btn btn-primary">
+                        <span>تعرف علينا</span>
                         <span class="btn-arrow">←</span>
                     </a>
-                    <a href="#about" class="btn btn-ghost">
-                        <span>تعرف علينا</span>
-                    </a>
-                </div>
-                
-                <div class="hero-stats">
-                    <div class="stat-item">
-                        <div class="stat-number" data-count="150">0</div>
-                        <div class="stat-label">مشروع مكتمل</div>
-                    </div>
-                    <div class="stat-item">
-                        <div class="stat-number" data-count="50">0</div>
-                        <div class="stat-label">عميل سعيد</div>
-                    </div>
-                    <div class="stat-item">
-                        <div class="stat-number" data-count="5">0</div>
-                        <div class="stat-label">سنوات خبرة</div>
-                    </div>
                 </div>
             </div>
             
@@ -303,174 +276,6 @@
         </div>
     </section>
 
-    <!-- Portfolio Section -->
-    <section id="portfolio" class="portfolio">
-        <div class="container">
-            <div class="section-header">
-                <div class="section-badge">أعمالنا</div>
-                <h2 class="section-title">مشاريع نفتخر بإنجازها</h2>
-                <p class="section-description">
-                    اكتشف مجموعة من أفضل أعمالنا التي حققت نجاحاً باهراً لعملائنا
-                </p>
-            </div>
-            
-            <div class="portfolio-filters">
-                <button class="filter-btn active" data-filter="all">الكل</button>
-                <button class="filter-btn" data-filter="branding">الهوية البصرية</button>
-                <button class="filter-btn" data-filter="social">السوشيال ميديا</button>
-                <button class="filter-btn" data-filter="web">المواقع</button>
-                <button class="filter-btn" data-filter="video">الفيديو</button>
-            </div>
-            
-            <div class="portfolio-grid" id="portfolioGrid">
-                <div class="portfolio-item" data-category="branding">
-                    <div class="portfolio-image">
-                        <img src="https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=600&h=400&fit=crop" alt="مشروع الهوية البصرية" loading="lazy">
-                        <div class="portfolio-overlay">
-                            <div class="overlay-content">
-                                <h3>مشروع العلامة التجارية الذكية</h3>
-                                <p>تصميم هوية بصرية متكاملة لشركة تقنية ناشئة</p>
-                                <div class="portfolio-tags">
-                                    <span>هوية بصرية</span>
-                                    <span>تصميم</span>
-                                </div>
-                                <button class="view-project" data-project="0">عرض المشروع</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="portfolio-item" data-category="social">
-                    <div class="portfolio-image">
-                        <img src="https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=600&h=400&fit=crop" alt="حملة سوشيال ميديا" loading="lazy">
-                        <div class="portfolio-overlay">
-                            <div class="overlay-content">
-                                <h3>حملة المطعم الإيطالي</h3>
-                                <p>إدارة شاملة لحسابات التواصل الاجتماعي</p>
-                                <div class="portfolio-tags">
-                                    <span>سوشيال ميديا</span>
-                                    <span>تسويق</span>
-                                </div>
-                                <button class="view-project" data-project="1">عرض المشروع</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="portfolio-item" data-category="web">
-                    <div class="portfolio-image">
-                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop" alt="موقع إلكتروني" loading="lazy">
-                        <div class="portfolio-overlay">
-                            <div class="overlay-content">
-                                <h3>موقع التجارة الإلكترونية</h3>
-                                <p>تصميم وتطوير متجر إلكتروني متكامل</p>
-                                <div class="portfolio-tags">
-                                    <span>تطوير ويب</span>
-                                    <span>تجارة إلكترونية</span>
-                                </div>
-                                <button class="view-project" data-project="2">عرض المشروع</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="portfolio-item" data-category="video">
-                    <div class="portfolio-image">
-                        <img src="https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?w=600&h=400&fit=crop" alt="إنتاج فيديو" loading="lazy">
-                        <div class="portfolio-overlay">
-                            <div class="overlay-content">
-                                <h3>فيديو تعريفي للشركة</h3>
-                                <p>إنتاج فيديو تسويقي احترافي</p>
-                                <div class="portfolio-tags">
-                                    <span>إنتاج فيديو</span>
-                                    <span>موشن جرافيك</span>
-                                </div>
-                                <button class="view-project" data-project="3">عرض المشروع</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="portfolio-item" data-category="branding">
-                    <div class="portfolio-image">
-                        <img src="https://images.unsplash.com/photo-1586953208448-b95a79798f07?w=600&h=400&fit=crop" alt="تصميم هوية" loading="lazy">
-                        <div class="portfolio-overlay">
-                            <div class="overlay-content">
-                                <h3>هوية المقهى العصري</h3>
-                                <p>تصميم هوية بصرية وتطبيقاتها</p>
-                                <div class="portfolio-tags">
-                                    <span>هوية بصرية</span>
-                                    <span>تطبيقات</span>
-                                </div>
-                                <button class="view-project" data-project="4">عرض المشروع</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="portfolio-item" data-category="social">
-                    <div class="portfolio-image">
-                        <img src="https://images.unsplash.com/photo-1432888622747-4eb9a8efeb07?w=600&h=400&fit=crop" alt="حملة رقمية" loading="lazy">
-                        <div class="portfolio-overlay">
-                            <div class="overlay-content">
-                                <h3>حملة المنتج الجديد</h3>
-                                <p>استراتيجية تسويقية متكاملة</p>
-                                <div class="portfolio-tags">
-                                    <span>تسويق رقمي</span>
-                                    <span>حملات</span>
-                                </div>
-                                <button class="view-project" data-project="5">عرض المشروع</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Testimonials Section -->
-    <section id="testimonials" class="testimonials">
-        <div class="container">
-            <div class="section-header">
-                <div class="section-badge">آراء العملاء</div>
-                <h2 class="section-title">ماذا يقول عملاؤنا عنا</h2>
-                <p class="section-description">
-                    نفتخر بثقة عملائنا وآرائهم الإيجابية حول جودة خدماتنا
-                </p>
-            </div>
-            
-            <div class="testimonials-slider" id="testimonialsSlider">
-                <div class="testimonial-card">
-                    <div class="testimonial-content">
-                        <div class="testimonial-rating">
-                            <span>⭐</span>
-                            <span>⭐</span>
-                            <span>⭐</span>
-                            <span>⭐</span>
-                            <span>⭐</span>
-                        </div>
-                        <p>"فريق BRANDO قام بعمل رائع في تصميم هوية شركتنا. النتائج فاقت توقعاتنا وأصبح لدينا حضور قوي في السوق."</p>
-                        <div class="testimonial-author">
-                            <div class="author-avatar">
-                                <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=80&h=80&fit=crop&crop=face" alt="أحمد الصالح">
-                            </div>
-                            <div class="author-info">
-                                <h4>أحمد الصالح</h4>
-                                <span>مدير شركة تقنية متقدمة</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-        
-            
-            <div class="testimonials-controls">
-                <button class="control-btn" id="prevTestimonial">←</button>
-                <div class="testimonials-dots" id="testimonialsDots"></div>
-                <button class="control-btn" id="nextTestimonial">→</button>
-            </div>
-        </div>
-    </section>
-
     <!-- Contact Section -->
     <section id="contact" class="contact">
         <div class="container">
@@ -488,7 +293,7 @@
                         <div class="contact-icon">📧</div>
                         <h3>البريد الإلكتروني</h3>
                         <p>dzbrando9@gmail.com</p>
-                        <a href="mailto:hello@brando-agency.com" class="contact-link">راسلنا الآن</a>
+                        <a href="mailto:dzbrando9@gmail.com" class="contact-link">راسلنا الآن</a>
                     </div>
                     
                     <div class="contact-card">
@@ -533,7 +338,6 @@
                     <li><a href="#home">الرئيسية</a></li>
                     <li><a href="#about">من نحن</a></li>
                     <li><a href="#services">الخدمات</a></li>
-                    <li><a href="#portfolio">الأعمال</a></li>
                     <li><a href="#contact">تواصل معنا</a></li>
                 </ul>
             </div>
@@ -543,7 +347,8 @@
         </div>
     </footer>
 
-    <!-- JavaScript (if any) -->
+    <!-- JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
     <script src="./script.js"></script>
 </body>
 </html>
